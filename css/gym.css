@@ -1,0 +1,377 @@
+:root {
+    --blue_1: rgb(17, 17, 49);
+    --blue_2: rgba(51, 48, 92, 0.774);
+}
+
+* {
+    font-size: 12pt;
+    font-family: cursive;
+    color: white !important;
+}
+
+.logo {
+    width: 55px;
+    padding: 10px 10px;
+    border-radius: 100%;
+}
+
+.appname {
+    font-size: 26pt !important;
+    text-shadow: 4px 2px 2px rgb(100, 93, 197);
+    margin: 0;
+}
+
+.menubar {
+    background-color: var(--blue_1);
+    width: 100%;
+}
+
+.menu {
+    color: white !important;
+    font-size: 16pt !important;
+}
+
+.sidebutton {
+    background-color: var(--blue_1) !important;
+    color: white !important;
+    font-size: 16pt;
+    font-family: cursive;
+}
+
+.nav_buttons {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 5px;
+}
+
+.nav_buttons:hover {
+    background-color: white;
+    color: var(--blue_1) !important;
+}
+
+.titlebar {
+    background-color: var(--blue_1) !important;
+    padding: 10px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.flex-1,
+.flex-8 {
+    flex: 1;
+}
+
+.flex-2,
+.flex-3,
+.flex-4,
+.flex-5 {
+    flex: 4;
+}
+
+.flex-6,
+.flex-7 {
+    flex: 2;
+}
+
+.left-image {
+    flex: 4;
+    text-align: center !important;
+}
+
+.left-image>img {
+    width: 400px;
+    height: 400px;
+}
+
+.right-content {
+    flex: 10;
+    text-align: justify;
+    margin-left: 10px !important;
+}
+
+.wrap {
+    background-color: var(--blue_2);
+    padding: 20px 20px;
+}
+
+.product-image {
+    flex: 4;
+    width: 200px;
+    height: 200px;
+}
+
+.product-content {
+    flex: 10;
+    margin-left: 20px;
+    text-align: justify;
+    background-color: rgb(17, 17, 49) !important;
+    margin-left: 0px !important;
+    padding: 10px 10px !important;
+}
+
+.client-image {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    margin-left: 10px !important;
+}
+
+.client-image:nth-child(1) {
+    margin-left: 0px !important;
+}
+
+#name,
+#email {
+    background-color: var(--blue_1);
+    width: 300px;
+}
+
+#comment {
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--blue_1);
+    min-height: 100px;
+}
+
+.join {
+    background-color: var(--blue_1) !important;
+}
+
+.join:hover {
+    background-color: white !important;
+    color: var(--blue_1) !important;
+}
+
+.link-group {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.link {
+    display: inline-block;
+    padding: 9px 5px;
+    border-radius: 100%;
+    background-color: var(--blue_1);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none !important;
+}
+
+.link:hover {
+    background-color: white !important;
+    color: var(--blue_1) !important;
+}
+
+.link:nth-child(1) {
+    margin-left: 0px !important;
+}
+
+.left-contact {
+    flex: 1;
+    display: inline-block;
+}
+
+.right-contact {
+    flex: 1;
+}
+
+.map {
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+     :root {
+        --blue_1: rgb(17, 17, 49);
+        --blue_2: rgba(51, 48, 92, 0.774);
+    }
+    * {
+        font-size: 12pt;
+        font-family: cursive;
+        color: white !important;
+    }
+    .logo {
+        width: 50px;
+        padding: 0px 0px !important;
+        border-radius: 100%;
+    }
+    .appname {
+        font-size: 24pt !important;
+        text-shadow: 4px 2px 2px rgb(100, 93, 197);
+    }
+    .menubar {
+        background-color: var(--blue_1);
+        width: 100% !important;
+    }
+    .menu {
+        color: white !important;
+        font-size: 16pt !important;
+    }
+    .sidebutton {
+        background-color: var(--blue_1) !important;
+        color: white !important;
+        font-size: 16pt;
+        font-family: cursive;
+    }
+    .nav_buttons {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        border-radius: 5px;
+    }
+    .nav_buttons:hover {
+        background-color: white;
+        color: var(--blue_1) !important;
+    }
+    .titlebar {
+        background-color: var(--blue_1) !important;
+        padding: 10px !important;
+        text-align: center !important;
+        font-size: 14pt !important;
+        width: 100% !important;
+        margin: 0px !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .main-flex-container {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .flex-container-1 {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .flex-container-2 {
+        display: flex !important;
+        flex-direction: row !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+    .flex-1,
+    .flex-8 {
+        flex: 1;
+    }
+    .flex-2,
+    .flex-3,
+    .flex-4,
+    .flex-5 {
+        flex: 5;
+    }
+    .flex-6,
+    .flex-7 {
+        flex: 2;
+    }
+    .left-image {
+        flex: 4;
+    }
+    .left-image>img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .right-content {
+        flex: 10;
+        text-align: justify;
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+    .wrap {
+        background-color: var(--blue_2);
+        padding: 20px 20px;
+    }
+    .product-image {
+        flex: 4;
+        width: 100px;
+        height: 100px;
+    }
+    .product-content {
+        flex: 10;
+        margin-left: 20px;
+        text-align: justify;
+        background-color: rgb(17, 17, 49) !important;
+        margin-left: 0px !important;
+        padding: 10px 10px !important;
+    }
+    .client-image {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        margin-left: 10px !important;
+    }
+    .client-image:nth-child(1) {
+        margin-left: 0px !important;
+    }
+    #name,
+    #email {
+        background-color: var(--blue_1);
+        width: 300px;
+    }
+    #comment {
+        width: 300px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: var(--blue_1);
+        min-height: 100px;
+    }
+    .join {
+        background-color: var(--blue_1) !important;
+    }
+    .join:hover {
+        background-color: white !important;
+        color: var(--blue_1) !important;
+    }
+    .link-group {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .link {
+        display: inline-block;
+        padding: 5px 4.5px;
+        border-radius: 100%;
+        background-color: var(--blue_1);
+        width: 30px !important;
+        height: 30px !important;
+        text-align: center;
+        margin-left: 5px;
+        text-decoration: none !important;
+        font-size: 16pt !important;
+    }
+    .link:hover {
+        background-color: white !important;
+        color: var(--blue_1) !important;
+    }
+    .link:nth-child(1) {
+        margin-left: 0px !important;
+    }
+    .left-contact {
+        flex: 1;
+        display: inline-block;
+    }
+    .right-contact {
+        flex: 1;
+    }
+    .map {
+        width: 200px;
+        height: 100px;
+    }
+}
