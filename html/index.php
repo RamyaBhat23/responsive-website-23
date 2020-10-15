@@ -1,2 +1,2 @@
 <?php require('vendor/autoload.php'); ?>
-<?php include_once('gym.html'); ?>
+<?php include_once("index.html"); ?>
